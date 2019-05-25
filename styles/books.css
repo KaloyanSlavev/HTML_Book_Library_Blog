@@ -1,0 +1,81 @@
+body{
+    background: rgba(217, 221, 200, 0.65);
+
+}
+
+header{
+    background: #c8dd4b;
+    padding: 5px 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+header a{
+     text-decoration: none;
+     padding: 5px 10px;
+     border-radius: 7px;
+ }
+
+header a:hover{
+    background: #a2dd0a;
+}
+
+#loadingBox, #infoBox, #errorBox{
+    display: none;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#loadingBox{
+    background: #7cB3E9;
+    color: white;
+}
+
+#infoBox{
+    background: #393;
+    color: white;
+}
+
+#errorBox{
+    background: #F50;
+    color: white;
+}
+
+main > section{
+    display: none;
+}
+
+footer{
+    background: #c8dd4b;
+    padding: 5px 10px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 5px 5px 10px 10px;
+}
+
+.tableHeaders{
+    max-width: 100%;
+    font-weight: 300;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+th, td{
+    background: #bddd13;
+    margin: 5px;
+    width: inherit;
+    padding: 10px;
+}
+
+.cell{
+    background: #def092;
+}
+
+#commentAuthor, #commentText{
+    width: 30%;
+    margin: 5px;
+}
